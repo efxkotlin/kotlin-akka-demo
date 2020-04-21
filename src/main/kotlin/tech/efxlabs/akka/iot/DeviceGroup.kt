@@ -12,7 +12,7 @@ import akka.actor.typed.javadsl.Receive
 class DeviceGroup private constructor(context: ActorContext<Command>, private val groupId: String) :
     AbstractBehavior<DeviceGroup.Command>(context) {
 
-    private val deviceIdToActorRef = hashMapOf<String, ActorRef<Device.Command>>() // manages a list of
+    private val deviceIdToActorRef = hashMapOf<String, ActorRef<Device.Command>>()
 
     init {
         context.log.info("Device Group Actor Initialized")
