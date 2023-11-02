@@ -16,7 +16,7 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
     compile 'com.typesafe.akka:akka-actor-typed_2.13:2.6.4'
     compile 'ch.qos.logback:logback-classic:1.2.3'
-    testCompile 'com.typesafe.akka:akka-actor-testkit-typed_2.13:2.6.4'
+    testCompile 'com.typesafe.akka:akka-actor-testkit-typed_2.13:2.8.5'
     testCompile 'junit:junit:4.12'
 }
 
